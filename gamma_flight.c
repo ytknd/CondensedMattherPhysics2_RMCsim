@@ -11,6 +11,7 @@ int main (void) {
 
     init_genrand((unsigned)time(NULL));
 
+
     for (int i = 0; i < gamma_ray_number; i++) {
 
         eta = genrand_real1();
